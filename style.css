@@ -16,6 +16,7 @@ body {
   background-color: #00adb5 !important;
   color: #eeeeee !important;
   opacity: 0.8;
+  border-bottom: solid #393e46 5px;
 }
 
 .timeStyle{
@@ -69,9 +70,9 @@ input {
 }
 
 .buttonStyle:hover {
-  background: #ff7c5c;
-  border-left: solid 6px #f7f7f7;
-  color: #f7f7f7 !important;
+  background: #393e46;
+  border-left: solid 6px #ff7c5c;
+  color: #ff7c5c !important;
   text-decoration: none;
 }
 
