@@ -15,7 +15,6 @@ $(document).ready(function() {
 
   function dpTimeUpdate() {
 
-
     for (var i = 9; i <= 17; i++) {
       var time = $('.time'+i).text();
       var input = $('#input'+i).text();
@@ -29,7 +28,6 @@ $(document).ready(function() {
         $('#input'+i).attr('disabled',true);
       }
     }
-
   }
 
   //RETRIEVE DATA FROM LOCAL STORAGE AFTER REFRESH
